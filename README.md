@@ -1,7 +1,4 @@
-Great, based on your **Project_Idea.txt (Exam Difficulty Assessment Application)** and the **Dataset_Sample.txt** you shared, here is a **clear, realistic division of work for 5 developers**, with **order of execution**, **GitHub repo structure**, and **explicit responsibilities**.
-
-I’ll keep it aligned with **data mining workflow** and what your instructor expects.
-(References to your project idea and dataset are based on the uploaded files )
+# Follow The Struture And Naming Convention
 
 ---
 
@@ -234,21 +231,4 @@ Exam-Difficulty-Assessment/
 └── .gitignore
 ```
 
----
-
-## ✅ What This Setup Achieves
-
-* Clear ownership for each member
-* Matches **data mining lifecycle**
-* Easy to explain to instructor
-* Streamlit app demonstrates **end-to-end pipeline**
-* Feature engineering includes **explicit correctness logic (`is_correct`)**
-
----
-
-If you want, next I can:
-
-* Assign **Git branches per role**
-* Write a **README.md**
-* Create a **task checklist per member**
-* Or generate a **Gantt chart** for your timeline
+ for your timeline
