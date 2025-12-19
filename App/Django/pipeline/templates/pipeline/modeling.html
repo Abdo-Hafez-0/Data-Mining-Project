@@ -1,0 +1,21 @@
+{% extends 'pipeline/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="title">🤖 Modeling</div>
+
+    <p>
+        A Random Forest model is trained to classify question difficulty.
+    </p>
+
+    <ul>
+        <li><strong>Accuracy:</strong> {{ accuracy }}</li>
+        <li><strong>Model features:</strong></li>
+        <ul>
+            {% for f in features %}
+                <li>{{ f }}</li>
+            {% endfor %}
+        </ul>
+    </ul>
+</div>
+{% endblock %}
