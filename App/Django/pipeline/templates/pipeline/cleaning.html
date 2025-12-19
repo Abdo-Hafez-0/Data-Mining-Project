@@ -1,0 +1,14 @@
+{% extends 'pipeline/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="title">🧹 Data Cleaning</div>
+
+    <p>Raw interaction data is cleaned to remove noise and invalid records.</p>
+
+    <ul>
+        <li><strong>Rows after cleaning:</strong> {{ rows_after }}</li>
+        <li><strong>Final columns:</strong> {{ columns }}</li>
+    </ul>
+</div>
+{% endblock %}

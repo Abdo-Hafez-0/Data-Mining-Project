@@ -1,0 +1,22 @@
+{% extends 'pipeline/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="title">🧩 Feature Engineering</div>
+
+    <p>
+        Behavioral features are engineered at the question level
+        without leaking difficulty information.
+    </p>
+
+    <ul>
+        <li><strong>Number of questions:</strong> {{ questions }}</li>
+        <li><strong>Engineered features:</strong></li>
+        <ul>
+            {% for f in features %}
+                <li>{{ f }}</li>
+            {% endfor %}
+        </ul>
+    </ul>
+</div>
+{% endblock %}

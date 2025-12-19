@@ -1,0 +1,14 @@
+{% extends 'pipeline/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="title">📊 Exploratory Data Analysis</div>
+
+    <ul>
+        <li><strong>Total records:</strong> {{ rows }}</li>
+        <li><strong>Average solving time:</strong> {{ avg_time }}</li>
+        <li><strong>Minimum time:</strong> {{ min_time }}</li>
+        <li><strong>Maximum time:</strong> {{ max_time }}</li>
+    </ul>
+</div>
+{% endblock %}
